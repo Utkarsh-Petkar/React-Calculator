@@ -1,0 +1,62 @@
+.Calc {
+  /* text-align: center; */
+  width: 320px;
+  margin: 100px auto;
+}
+
+#result {
+  background-color: #fdfdfd;
+  padding: 10px;
+  font-size: 35px;
+  width: 294px;
+  height: 45px;
+  text-align: right;
+  border: 3px solid black;
+}
+
+.button {
+  background: rgb(0, 0, 0);
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: 30px;
+  border:1px solid rgb(95, 88, 88);
+  float: left;
+}
+
+#btnC{
+  width: 80px;
+  background-color: orange
+}
+#btnEqual{
+  width: 240px;
+  background: #4BB543;
+}
+
+.arith{
+  background-color: rgb(23, 162, 218);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
